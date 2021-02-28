@@ -30,7 +30,8 @@ if settings.DEBUG:
 api_urlpatterns = [
     path('auth/', include(auth_api_urls)),
     path('accounts/', include("users.urls")),
-    path('house/', include("house.urls"))
+    path('house/', include("house.urls")),
+    path("task/", include("task.urls"))
 ]
 
 urlpatterns = [

@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     'users',
     'house',
+    'task',
     'rest_framework',
     'oauth2_provider',
     'social_django',
